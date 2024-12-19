@@ -1,0 +1,164 @@
+body {
+    margin: 0;
+    font-family: 'Cutive';
+    background-color: #F5F5EF;
+    color: #333;;
+
+}
+
+header {
+    text-align: center;
+    padding: 20px 0;
+    background-color: #F5F5EF;
+    display: flex;
+    justify-content: space-around;
+}
+
+header h1 {
+    font-family: 'Cutive';
+    font-size: 2rem;
+    margin: 0;
+}
+
+nav {
+    margin-top: 10px;
+}
+
+nav a {
+    margin: 0 15px;
+    text-decoration: none;
+    color: #333;
+    font-weight: 500;
+}
+
+hr{
+    margin: 0;
+}
+.Heading{
+    margin: 0;
+    
+}
+
+.SubHeading{
+    margin: 0;
+    font-size: 12px;
+    color: grey;
+}
+
+.hero {
+    text-align: center;
+    padding: 40px 20px;
+}
+
+.hero p {
+    font-family: 'Cutive';
+    font-size: 5rem;
+    margin-bottom: 20px;
+}
+
+.hero img {
+    width: 100%;
+    max-width: 1300px;
+    max-height: 500px;
+    border-radius: 10px;
+}
+
+.gallery {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+    /* gap: 15px; */
+    padding: 20px;
+    max-width: 1344px;
+    margin: 0 auto;
+    gap: 3rem;
+}
+
+.gallery img {
+    width: 100%;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.description {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    padding: 50px 20px;
+}
+
+.description p {
+    width: auto;
+    max-width: 600px;
+    font-size: 2rem;
+    line-height: 1.4;
+    margin: 10px 0;
+}
+
+footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 40px;
+    background-color: #f8f8f8;
+    font-family: 'Roboto', sans-serif;
+    font-size: 1rem;
+    border-top: 1px solid #ccc;
+    text-align: center;
+}
+
+footer .footer-content {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    /* max-width: 1200px; */
+    margin-bottom: 20px;
+}
+
+footer .footer-content div {
+    text-align: left;
+}
+
+footer .footer-content div p {
+    margin: 5px 0;
+    font-size: 0.9rem;
+    color: #666;
+}
+
+footer .footer-content div p.heading {
+    font-size: 1.4rem;
+    padding: 5px;
+    border-radius: 5px;
+    color: #333;
+    border: black 2px solid;
+}
+
+footer .copyright {
+    font-size: 0.8rem;
+    color: #333;
+    margin-top: 10px;
+}
+.ending{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+footer .follow-button {
+    margin-top: 20px;
+}
+
+footer .follow-button button {
+    background-color: transparent;
+    border: 1px solid #333;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 1rem;
+    color: #333;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+footer .follow-button button:hover {
+    background-color: #333;
+    color: #fff;
+}
